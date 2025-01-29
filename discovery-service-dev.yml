@@ -1,2 +1,9 @@
 server:
   port: 8761
+
+eureka:
+  client:
+    register-with-eureka: false  # Kendini kaydetme (tek instance için)
+    fetch-registry: false        # Registry'i çekme
+    service-url:
+      defaultZone: http://localhost:8761/eureka
