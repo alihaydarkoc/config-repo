@@ -29,4 +29,5 @@ server:
   ## JWT Configuration ##
 jwt:
   jwtsecret: 2b44b0b00fd822d8ce753e54dac3dc4e06c2725f7db930f3b9924468b53194dbccdbe23d7baa5ef5fbc414ca4b2e64700bad60c5a7c45eaba56880985582fba4
-  jwtExpirationTime: 36000000
+  access-token-expiration: 3600000 # 1 hour
+  refresh-token-expiration: 604800000 # 7 days
