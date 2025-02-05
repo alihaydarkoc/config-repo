@@ -3,6 +3,12 @@ spring:
     name: auth-service
     port: 8083
 
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+
   ## DB Configuration ##
   datasource:
     url: jdbc:postgresql://localhost:5432/paymentsystemdb
