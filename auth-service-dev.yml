@@ -3,11 +3,11 @@ spring:
     name: auth-service
     port: 8083
 
-logging:
-  level:
-    org:
-      springframework:
-        security: DEBUG
+  logging:
+    level:
+      org:
+        springframework:
+          security: DEBUG
 
   ## DB Configuration ##
   datasource:
