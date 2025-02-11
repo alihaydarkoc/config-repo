@@ -26,6 +26,14 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
         format_sql: true
 
+  ## entity lifecycle (yaşam döngüsü) sırasında otomatik bean doğrulamasını devre dışı bırakır.
+  data:
+    properties:
+      jakarta:
+        persistence:
+          validation:
+            mode: none
+
 ## Server Configuration ##
 server:
   servlet:
