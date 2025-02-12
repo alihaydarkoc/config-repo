@@ -25,10 +25,10 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
         format_sql: true
-      jakarta:
-        persistence:
-          validation:
-            mode: none
+      ## jakarta:
+        ## persistence:
+          ## validation:
+            ## mode: none
 
 ## Server Configuration ##
 server:
