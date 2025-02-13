@@ -9,6 +9,9 @@ spring:
         springframework:
           security: DEBUG
 
+  messages:
+    encoding: UTF-8
+
   ## DB Configuration ##
   datasource:
     url: jdbc:postgresql://localhost:5432/paymentsystemdb
