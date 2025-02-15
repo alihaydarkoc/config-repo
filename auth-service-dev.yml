@@ -49,5 +49,6 @@ ahk-mail:
     host: smtp.ethereal.email
     port: 587
     from: noreply@auth.com
+    tls: mail.smtp.starttls.enable
   client:
     host: http://localhost:5173
