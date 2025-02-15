@@ -44,10 +44,10 @@ jwt:
 
 ahk-mail:
   email:
-    username: isaac.goyette73@ethereal.email
+    username: rey.corkery83@ethereal.email
     password: ${AUTH_SERVICE_EMAIL_PASSWORD}
     host: smtp.ethereal.email
     port: 587
-    from: noreply@my-app.com
+    from: noreply@auth.com
   client:
     host: http://localhost:5173
