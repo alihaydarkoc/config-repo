@@ -11,7 +11,7 @@ spring:
 
   ## MYSQL DB Configuration ##
   datasource:
-    url: jdbc:mysql://mysql:3306/keycloak
+    url: jdbc:mysql://localhost:3306/keycloak
     username: keycloak
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
