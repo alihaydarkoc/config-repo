@@ -25,3 +25,11 @@ spring:
 ## Server Configuration ##
 server:
   port: 8084
+
+## Keycloak Configuration of jwks_uri
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:8080/realms/realm-ahk-dev/protocol/openid-connect/certs
