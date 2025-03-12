@@ -9,26 +9,18 @@ spring:
         springframework:
           security: DEBUG
 
-  ## DB Configuration ##
+  ## MYSQL DB Configuration ##
   datasource:
-    url: jdbc:postgresql://localhost:5432/keycloak
-    username: postgres
-    password: postgres
-    driver-class-name: org.postgresql.Driver
+    url: jdbc:mysql://mysql:3306/keycloak?useSSL=false&allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=UTF-8
+    username: keycloak
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
   ## JPA / HIBERNATE  Configuration ##
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
-        format_sql: true
-      ## jakarta:
-        ## persistence:
-          ## validation:
-            ## mode: none
 
 ## Server Configuration ##
 server:
