@@ -1,7 +1,7 @@
 spring:
   application:
     name: package-service
-    port: 8080
+    port: 8079
 
   datasource:
     url: jdbc:postgresql://localhost:5432/paymentsystemdb
