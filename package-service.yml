@@ -1,7 +1,7 @@
 spring:
   application:
     name: package-service
-    port: 8079
+
 server:
   port: 8079
 
