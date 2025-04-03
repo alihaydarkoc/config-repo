@@ -2,9 +2,6 @@ spring:
   application:
     name: package-service
 
-server:
-  port: 8079
-
   datasource:
     url: jdbc:postgresql://localhost:5432/paymentsystemdb
     username: postgres
@@ -36,3 +33,6 @@ server:
     redis:
       time-to-live: PT2H
       cache-null-values: false
+
+server:
+  port: 8079
