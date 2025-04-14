@@ -46,3 +46,8 @@ eureka:
 
 server:
   port: 8078
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
