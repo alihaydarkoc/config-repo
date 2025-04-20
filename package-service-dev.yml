@@ -50,7 +50,7 @@ server:
 grpc:
   client:
     grpc-server: 
-      address: static://localhost:8087
+      address: localhost:8087
       enable-keep-alive: true
       negotiation-type: plaintext
 
