@@ -47,12 +47,10 @@ eureka:
 server:
   port: 8078
 
-grpc:
-  client:
-    grpc-server: 
-      address: localhost:8087
-      enable-keep-alive: true
-      negotiation-type: plaintext
+package:
+  grpc:
+    host: localhost
+    port: 8087
 
 management:
   tracing:
