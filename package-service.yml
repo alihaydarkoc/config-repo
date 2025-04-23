@@ -35,10 +35,10 @@ spring:
       cache-null-values: false
 
 server:
-  port: 8079
+  port: 8078
 
 grpc:
   server:
     property:
       host: localhost
-      port: 8086
+      port: 8076
