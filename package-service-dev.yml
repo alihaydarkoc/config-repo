@@ -47,10 +47,11 @@ eureka:
 server:
   port: 8078
 
-package:
-  grpc:
-    host: localhost
-    port: 8087
+grpc:
+  server:
+    property:
+      host: localhost
+      port: 8086
 
 management:
   tracing:
