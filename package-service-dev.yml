@@ -51,7 +51,7 @@ grpc:
   server:
     property:
       host: localhost
-      port: 8086
+      port: 8076
 
 management:
   tracing:
