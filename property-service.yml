@@ -30,6 +30,10 @@ eureka:
 server:
   port: 8077
 
+grpc:
+  server:
+    port: 8076
+
 management:
   tracing:
     sampling:
