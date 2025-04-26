@@ -48,10 +48,10 @@ server:
   port: 8078
 
 grpc:
-  client:
-    property-service: # @GrpcClient("property-service") ile eşleşir
-      address: static://${grpc.server.property.host:localhost}:${grpc.server.property.port:8076}
-      negotiation-type: plaintext # SSL/TLS kullanmıyorsanız
+  server:
+    property-service:
+      host: localhost
+      port: 8076
 
 management:
   tracing:
