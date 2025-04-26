@@ -39,6 +39,6 @@ server:
 
 grpc:
   server:
-    property:
+    property-service:
       host: localhost
       port: 8076
