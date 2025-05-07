@@ -34,6 +34,12 @@ grpc:
   server:
     port: 8076
 
+logging:
+  config: classpath:logback-spring.xml
+  file:
+    path: /logs
+    name: /logs/property-service.log
+
 management:
   tracing:
     sampling:
